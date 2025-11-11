@@ -19,9 +19,7 @@ TODO: remove this and disperse relevant info into appropriate sections below as 
 **Design Plan:**
 
 - 4–8 opto-isolated digital inputs (24 V-compatible)
-- 4–8 protected digital outputs:
-  - Open-drain N-channel MOSFETs for low-side switching
-  - Onboard SSR relays
+- 4–8 protected digital outputs using onboard SSR relays
 - TVS protection, flyback diodes for inductive loads
 
 **Applications:**

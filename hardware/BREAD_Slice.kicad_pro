@@ -808,6 +808,10 @@
     [
       "a4d66d05-b498-454f-8d54-68b671c284b9",
       "slice_template"
+    ],
+    [
+      "2fc3e555-07d7-44ca-9332-cea1fde8760a",
+      "Input Power Protection"
     ]
   ],
   "text_variables": {}
