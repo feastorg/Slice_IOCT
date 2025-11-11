@@ -8,8 +8,7 @@ Overview of the electrical, firmware, and mechanical design of this Slice.
 ## 🧠 Purpose
 
 <!-- Briefly describe the function of the Slice -->
-
-This Slice is designed to serve as a template slice for creating new SLICE modules, with variants supporting different mechanical and electrical configurations. Intended to standardize layout and encourage reuse.
+This Slice is designed to be a rugged digital input and output slice that can interface directly with 24V industrial sensors and actuators. It mimics a PLC-style IO module for the BREADS system. It prioritizes input protection, reliable switching, and compatibility with common field devices.
 
 ## 🔌 Interfaces
 

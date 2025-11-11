@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.4
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.5,
+        0.75,
         1.0,
         1.5,
         3.0
@@ -233,7 +234,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.0
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -478,13 +479,16 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "TerminalBlock_Phoenix"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -515,7 +519,6 @@
         "bus_width": 12,
         "clearance": 1.25,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 1,
         "microvia_diameter": 0.3,
@@ -591,6 +594,54 @@
       {
         "netclass": "HV Relay",
         "pattern": "FUSE1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6B"
       }
     ]
   },
@@ -660,12 +711,42 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
