@@ -5,9 +5,35 @@ description: "High-level architecture: electrical, firmware, and mechanical desi
 
 Overview of the electrical, firmware, and mechanical design of this Slice.
 
+## Rough Plan for SLC_IOCT
+
+TODO: remove this and disperse relevant info into appropriate sections below as they are fleshed out.
+
+**Goal / Description:**
+
+- Create a slice for rugged **digital I/O** control in industrial or field settings.
+- Interface directly with **24 V sensors and actuators**.
+- Mimics a simple **PLC-style I/O module** for the BREADS system.
+- Prioritize **input protection**, reliable switching, and compatibility with common field devices.
+
+**Design Plan:**
+
+- 4–8 opto-isolated digital inputs (24 V-compatible)
+- 4–8 protected digital outputs:
+  - Open-drain N-channel MOSFETs for low-side switching
+  - Onboard SSR relays
+- TVS protection, flyback diodes for inductive loads
+
+**Applications:**
+
+- Switches, proximity sensors, and relays in automation systems
+- Basic on/off control of 24 V field devices
+- Rugged I/O for robotics, process control, or lab automation
+
 ## 🧠 Purpose
 
 <!-- Briefly describe the function of the Slice -->
+
 This Slice is designed to be a rugged digital input and output slice that can interface directly with 24V industrial sensors and actuators. It mimics a PLC-style IO module for the BREADS system. It prioritizes input protection, reliable switching, and compatibility with common field devices.
 
 ## 🔌 Interfaces
