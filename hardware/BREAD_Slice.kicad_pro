@@ -812,6 +812,38 @@
     [
       "2fc3e555-07d7-44ca-9332-cea1fde8760a",
       "Input Power Protection"
+    ],
+    [
+      "f4bc6ab1-c08e-4bad-8836-4e168b2fbdc6",
+      "Isolated Input1"
+    ],
+    [
+      "237ecdf4-0ec6-4779-9712-21a21e3b44fb",
+      "Isolated Input2"
+    ],
+    [
+      "b64880f2-481d-450b-a976-c6882ac5d67f",
+      "Isolated Input3"
+    ],
+    [
+      "4214154c-51ea-452d-92fc-56119205d2c3",
+      "Isolated Input4"
+    ],
+    [
+      "ed7833cb-3235-4c08-a5c0-99570f082658",
+      "SSR Output1"
+    ],
+    [
+      "ebb8db09-fc2c-4cfe-9c1d-88f995e3634a",
+      "SSR Output2"
+    ],
+    [
+      "71019fd0-2a2f-4475-a8d4-6b7755247a80",
+      "SSR Output3"
+    ],
+    [
+      "19c2c951-cbc7-421d-b9f1-26fcd710db6e",
+      "SSR Output4"
     ]
   ],
   "text_variables": {}
