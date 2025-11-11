@@ -22,3 +22,6 @@ fp-lib-table
 
 # Obsidian metadata
 .obsidian/
+
+# Ignore system files
+.DS_Store
