@@ -487,7 +487,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "TerminalBlock_Phoenix"
+      "TerminalBlock_Phoenix",
+      "kml-custom"
     ],
     "pinned_symbol_libs": []
   },

@@ -4,7 +4,7 @@ Template for creating BREAD slices. Features Arduino Nano, small dimensions (70x
 
 ## Introduction
 
-[Short introduction on the project.]
+This Slice is designed to be a rugged digital input and output slice that can interface directly with 24V industrial sensors and actuators. It mimics a PLC-style IO module for the BREADS system. It prioritizes input protection, reliable switching, and compatibility with common field devices.
 
 ## Usage
 

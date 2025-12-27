@@ -22,8 +22,8 @@ Testing procedures for this Slice. Covers manual validation and optional automat
 | Test        | Method                            | Expected Result                     |
 | ----------- | --------------------------------- | ----------------------------------- |
 | UART output | Connect USB-Serial, open terminal | Data output at expected baud rate   |
-| Input test  | Drive digital/PWM input           | MCU registers or reacts accordingly |
-| Output test | Scope or multimeter at output pin | Output toggles or changes as coded  |
+| Input test  | Drive digital input               | MCU registers or reacts accordingly |
+| Output test | Scope or multimeter at output     | Output toggles or changes as coded  |
 
 ## 🔁 Firmware Regression (if present)
 

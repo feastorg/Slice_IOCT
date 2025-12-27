@@ -13,4 +13,4 @@ Follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Use semantic v
 
 ### Added
 
-- Write here...
+- Initial board schematic and layout
