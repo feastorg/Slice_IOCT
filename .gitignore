@@ -17,7 +17,6 @@ fp-lib-table
 # Ignore other temporary files
 *.tmp
 *.log
-*.bak
 *.swp
 
 # Obsidian metadata
