@@ -1,5 +1,7 @@
 # Componments Listing
 
+24v input protection electrolytic cap: https://www.digikey.ca/en/products/detail/panasonic-electronic-components/EEE-FK1V100UR/766003
+
 To use:
 
 - [12 POS - Fixed Terminal Blocks PTSA 0.5/12-2.5-Z 12P 2.5MM 45DEG - Mouser Canada](https://mou.sr/3Xod5Gt)

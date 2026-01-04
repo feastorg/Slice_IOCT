@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kml-custom:Arduino_Nano_Headers"
+		(property "Footprint" "KMLib_Boards_Modules:Arduino_Nano_Headers"
 			(at 237.49 81.28 0)
 			(effects
 				(font
@@ -6296,7 +6296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kml-custom:SOIC_05WU-7_DIO-M"
+		(property "Footprint" "KMLib_IC_SMD:SOIC_05WU-7_DIO"
 			(at 113.03 93.98 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kml-custom:WS2812-5050-4PIN"
+		(property "Footprint" "KMLib_IC_SMD:WS2812-5050-4PIN"
 			(at 190.5 142.24 0)
 			(effects
 				(font
@@ -6619,7 +6619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kml-custom:Thermal Pad"
+		(property "Footprint" "KMLib_Mounting:Thermal Pad"
 			(at 68.2752 107.95 0)
 			(effects
 				(font

@@ -742,7 +742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0638de3-2d34-4170-94a6-65bb21b1c51b")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 147.32 110.744 0)
 			(effects
 				(font
@@ -800,19 +800,19 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/237ecdf4-0ec6-4779-9712-21a21e3b44fb"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/4214154c-51ea-452d-92fc-56119205d2c3"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/b64880f2-481d-450b-a976-c6882ac5d67f"
 					(reference "U5")
 					(unit 1)
 				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/b64880f2-481d-450b-a976-c6882ac5d67f"
+					(reference "U4")
+					(unit 1)
+				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/f4bc6ab1-c08e-4bad-8836-4e168b2fbdc6"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)

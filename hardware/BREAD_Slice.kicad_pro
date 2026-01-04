@@ -487,9 +487,37 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "TerminalBlock_Phoenix"
+      "TerminalBlock_Phoenix",
+      "KMLib_Aesthetic",
+      "KMLib_Connectors_Generic",
+      "KMLib_IC_SMD",
+      "KMLib_Connectors_Molex",
+      "KMLib_Passives_SMD",
+      "KMLib_Connectors_JST",
+      "KMLib_IC_THT",
+      "KMLib_Mounting",
+      "KMLib_Switches",
+      "KMLib_Relays",
+      "KMLib_Passives_THT",
+      "KMLib_TestPoints",
+      "KMLib_Connectors",
+      "KMLib_Boards_Modules"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "KMLib_Power",
+      "KMLib_Connectors",
+      "KMLib_Discrete_Semiconductors",
+      "KMLib_Electromechanical",
+      "KMLib_IC_Analog",
+      "KMLib_IC_Digital",
+      "KMLib_IC_MCU_MPU",
+      "KMLib_IC_Power",
+      "KMLib_Misc",
+      "KMLib_Passives",
+      "KMLib_Sensors",
+      "KMLib_Switches",
+      "KMLib_Aesthetic"
+    ]
   },
   "meta": {
     "filename": "BREAD_Slice.kicad_pro",
