@@ -17,5 +17,10 @@ fp-lib-table
 # Ignore other temporary files
 *.tmp
 *.log
-*.bak
 *.swp
+
+# Obsidian metadata
+.obsidian/
+
+# Ignore system files
+.DS_Store
