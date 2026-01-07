@@ -670,27 +670,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5099ae0-1a7a-40c3-a9a8-6648d877252a")
+			(uuid "733644c8-75ef-4530-ad75-e8bce652009e")
 		)
 		(pin "2"
-			(uuid "d8c5b497-6cb9-4038-8969-ece32809ecc0")
+			(uuid "51d46362-ca5a-4c75-b89c-d283923b1ff1")
 		)
 		(instances
 			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/19c2c951-cbc7-421d-b9f1-26fcd710db6e"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/71019fd0-2a2f-4475-a8d4-6b7755247a80"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/042e0971-4702-41b8-9729-b7954d2b29cc"
 					(reference "R12")
 					(unit 1)
 				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/ebb8db09-fc2c-4cfe-9c1d-88f995e3634a"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/e2b8c415-db5d-40c8-93bf-6187a1e8ef98"
 					(reference "R11")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/ed7833cb-3235-4c08-a5c0-99570f082658"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/ede95e92-9645-4951-913d-957d1bddcd1f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -751,33 +751,33 @@
 			)
 		)
 		(pin "4"
-			(uuid "5cd46eb9-8df4-4488-b077-b15702e2bad1")
+			(uuid "da95e3e5-ebea-4a31-b40d-40afad7ae8d6")
 		)
 		(pin "3"
-			(uuid "717e1141-6b6a-40cd-9c8f-0a2f6deea462")
+			(uuid "c9850212-40f5-46fc-b4e6-9a45a9ba98dd")
 		)
 		(pin "1"
-			(uuid "2053dc38-82d7-4a35-a850-f2fd7de022dc")
+			(uuid "a6d86f2d-7eb8-4858-9709-23757b533fe0")
 		)
 		(pin "2"
-			(uuid "436ed8eb-c932-41ec-b503-6c4ee4067f66")
+			(uuid "f78bb5d8-fdc0-466f-8b9d-9443ae777097")
 		)
 		(instances
 			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/19c2c951-cbc7-421d-b9f1-26fcd710db6e"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/71019fd0-2a2f-4475-a8d4-6b7755247a80"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/042e0971-4702-41b8-9729-b7954d2b29cc"
 					(reference "U8")
 					(unit 1)
 				)
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/ebb8db09-fc2c-4cfe-9c1d-88f995e3634a"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/e2b8c415-db5d-40c8-93bf-6187a1e8ef98"
 					(reference "U7")
 					(unit 1)
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/ed7833cb-3235-4c08-a5c0-99570f082658"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/ede95e92-9645-4951-913d-957d1bddcd1f"
+					(reference "U9")
 					(unit 1)
 				)
 			)
