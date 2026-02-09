@@ -24,3 +24,6 @@ fp-lib-table
 
 # Ignore system files
 .DS_Store
+
+# KiCad backups
+*-backups/

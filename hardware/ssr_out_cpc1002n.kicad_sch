@@ -152,17 +152,28 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-				(at 0 -5.334 0)
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1002n-datasheet?assetguid=e3f473b5-dc7a-4246-906b-83ecf53ecf01"
-				(at 0 -9.398 0)
+			(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,16 +181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, DC, SOP-4"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MOSFET Output Photorelay 1-Form-A NO"
+			(property "ki_keywords" "MOSFET Output Photorelay 1-Form-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -283,6 +285,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.524 0.889) (xy 1.524 0.635) (xy 1.524 0.635)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.524 0.762) (xy 2.794 0.762) (xy 2.794 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -295,10 +309,34 @@
 				)
 				(polyline
 					(pts
+						(xy 1.524 0.127) (xy 1.524 -0.127) (xy 1.524 -0.127)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.524 0) (xy 2.794 0) (xy 2.794 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.635) (xy 1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.3556)
 						(type default)
 					)
 					(fill
@@ -400,42 +438,6 @@
 				)
 			)
 			(symbol "CPC1002N_1_1"
-				(polyline
-					(pts
-						(xy 1.524 0.889) (xy 1.524 0.635)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.127) (xy 1.524 -0.127)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.635) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -732,7 +734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1002n-datasheet?assetguid=e3f473b5-dc7a-4246-906b-83ecf53ecf01"
+		(property "Datasheet" "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf"
 			(at 123.19 100.838 0)
 			(effects
 				(font
@@ -741,7 +743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, DC, SOP-4"
+		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4"
 			(at 123.19 98.806 0)
 			(effects
 				(font
