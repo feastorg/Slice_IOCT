@@ -1,0 +1,201 @@
+schema_version: "1.0"
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+id: "slice-ioct"
+name: "Industrial Digital I/O Controller"
+status: "prototype"
+category: "interface"
+
+summary: "PLC-style 6-input 4-output isolated digital I/O slice for 24V field devices."
+description: null
+
+# ── Versioning ────────────────────────────────────────────────────────────────
+version:
+  hardware: "0.1.0"
+  firmware: null
+  manifest: "0.1.0"
+
+# ── Compatibility ─────────────────────────────────────────────────────────────
+compatibility:
+  slice_spec: ">=0.1.0 <0.2.0"
+  crumbs_protocol: null
+  anolis_provider_api: null
+
+# ── Hardware ──────────────────────────────────────────────────────────────────
+hardware:
+  mcu:
+    type: "dev-board-socket"
+    form_factor: "nano"
+    primary: "ATmega328P"
+    supported:
+      - "ATmega328P"
+      - "ATmega4809"
+  primary_ic:
+    manufacturer: "IXYS/Littelfuse"
+    part_number: "CPC1002N"
+  hw_gen_current: 1
+  hw_gen_supported: [1]
+  pcb:
+    layers: 2
+    thickness: "1.6mm"
+    copper_weight: "1oz"
+    dimensions: "70mm x 100mm"
+  connectors:
+    - ref: "J1"
+      type: "slice-bus-10pin"
+      purpose: "power-and-i2c"
+    - ref: "J_IN"
+      type: "terminal-block-12pos"
+      purpose: "24v-digital-inputs"
+    - ref: "J_OUT"
+      type: "terminal-block-8pos"
+      purpose: "ssr-digital-outputs"
+  mounting:
+    pattern: "slice-standard-v0"
+    hole_size: "M3"
+    inset: "5mm"
+  pcb_color_prototype: null
+  pcb_color_production: null
+  enclosure:
+    supported: false
+    path: null
+
+# ── Electrical ────────────────────────────────────────────────────────────────
+electrical:
+  input_voltage: "12V"
+  logic_voltage: "5V"
+  max_current: null
+  protection:
+    reverse_polarity: true
+    input_esd: true
+    fuse: false
+  isolation:
+    present: true
+
+# ── Interfaces ────────────────────────────────────────────────────────────────
+interfaces:
+  host:
+    type: "i2c"
+    address_default: null
+    address_configurable: false
+  data:
+    inputs:
+      - name: "IN1"
+        type: "digital-24v"
+      - name: "IN2"
+        type: "digital-24v"
+      - name: "IN3"
+        type: "digital-24v"
+      - name: "IN4"
+        type: "digital-24v"
+      - name: "IN5"
+        type: "digital-24v"
+      - name: "IN6"
+        type: "digital-24v"
+    outputs:
+      - name: "OUT1"
+        type: "ssr-24v"
+      - name: "OUT2"
+        type: "ssr-24v"
+      - name: "OUT3"
+        type: "ssr-24v"
+      - name: "OUT4"
+        type: "ssr-24v"
+
+# ── Capabilities ──────────────────────────────────────────────────────────────
+capabilities:
+  - id: "digital_input"
+    channels: 6
+    control_modes: []
+  - id: "ssr_output"
+    channels: 4
+    control_modes: ["on_off"]
+
+# ── Firmware ──────────────────────────────────────────────────────────────────
+firmware: null
+
+# ── Protocol ──────────────────────────────────────────────────────────────────
+protocol: null
+
+# ── Software ──────────────────────────────────────────────────────────────────
+software: null
+
+# ── Artifacts ─────────────────────────────────────────────────────────────────
+artifacts:
+  schematic: "hardware/BREAD_Slice.kicad_sch"
+  pcb: "hardware/BREAD_Slice.kicad_pcb"
+  firmware: null
+  docs: "docs/"
+  bom: null
+  gerbers: null
+  pick_and_place: null
+  datasheets: []
+
+# ── Manufacturing ─────────────────────────────────────────────────────────────
+manufacturing:
+  assembly_type: "manual"
+  preferred_fab: null
+  dnp_parts: []
+  critical_parts: []
+  substitutions_allowed: true
+
+# ── Validation ────────────────────────────────────────────────────────────────
+validation:
+  status: "not_validated"
+  tested_revisions: []
+  tests:
+    electrical: false
+    firmware: false
+    environmental: false
+    integration: false
+  known_issues: []
+
+# ── Safety ────────────────────────────────────────────────────────────────────
+safety:
+  hazards:
+    - "24V field wiring"
+  max_safe_voltage: "24V DC"
+  intended_environment: "lab"
+  not_for:
+    - "human safety critical systems"
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+dependencies:
+  hardware: []
+  firmware_libraries: []
+  software_packages: []
+
+# ── Relations ─────────────────────────────────────────────────────────────────
+related:
+  supersedes: null
+  superseded_by: null
+  variants: []
+  compatible_slices: []
+
+# ── Maintainers ───────────────────────────────────────────────────────────────
+maintainers:
+  - name: "Cameron Brooks"
+    role: "owner"
+
+# ── License ───────────────────────────────────────────────────────────────────
+license:
+  hardware: "CERN-OHL-S-2.0"
+  firmware: null
+  software: null
+  docs: "CC-BY-4.0"
+
+# ── Repository ────────────────────────────────────────────────────────────────
+repository:
+  url: "https://github.com/feastorg/Slice_IOCT"
+
+# ── Metadata ──────────────────────────────────────────────────────────────────
+metadata:
+  created: "2026-05-19"
+  updated: "2026-05-19"
+  tags:
+    - "digital-io"
+    - "industrial"
+    - "24v"
+    - "plc"
+    - "ssr"
+    - "opto-isolated"
