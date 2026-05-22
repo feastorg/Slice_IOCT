@@ -4527,6 +4527,17 @@
 	)
 	(wire
 		(pts
+			(xy 254 142.24) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "af3c26d8-7e26-4d8f-a592-f4248a0390fa")
+	)
+	(wire
+		(pts
 			(xy 95.25 97.79) (xy 105.41 97.79)
 		)
 		(stroke
@@ -5051,6 +5062,16 @@
 		)
 		(uuid "74cea6df-8423-48fa-96d9-a759aee27c4b")
 	)
+	(label "ESTOP"
+		(at 254 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8440e6ce-3253-44a6-88e7-0b7c39cc02ee")
+	)
 	(label "LED"
 		(at 187.96 133.35 180)
 		(effects
@@ -5248,6 +5269,17 @@
 			(justify left)
 		)
 		(uuid "6ee8ad40-50e1-4d41-890b-7d528735f9aa")
+	)
+	(hierarchical_label "ESTOP"
+		(shape input)
+		(at 267.97 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70fdb774-7d39-408b-9bc1-b21d4dacb132")
 	)
 	(hierarchical_label "I2C_DAT{slash}A4"
 		(shape input)
