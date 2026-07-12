@@ -3609,7 +3609,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:OSHW_Logo_8mm"
+	(footprint "KMLib_Aesthetic:OSHW_Logo_8mm"
 		(layer "F.Cu")
 		(uuid "3ca9a400-76c6-4929-a99e-31634ddcafa0")
 		(at 135.950001 107.8 -90)
@@ -4158,7 +4158,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:FAST-Logo-Medium"
+	(footprint "KMLib_Aesthetic:FAST-Logo-Medium"
 		(layer "F.Cu")
 		(uuid "4307db7d-8439-4b96-8485-158f468937f6")
 		(at 130.1 70.3 -90)
@@ -13195,7 +13195,7 @@
 			)
 		)
 	)
-	(footprint "KMLib_Mounting:Thermal Pad"
+	(footprint "KMLib_Mounting:Thermal_Pad"
 		(layer "F.Cu")
 		(uuid "ff0746ca-ee75-4258-93a6-03b7acad5056")
 		(at 131.8 121.45)
