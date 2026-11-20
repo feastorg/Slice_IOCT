@@ -8,6 +8,260 @@
 		(title "SLC_IOCT")
 	)
 	(lib_symbols
+		(symbol "KMLib_Connectors:1985218"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.508 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1985218"
+				(at -2.794 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KMLib_Connectors:1985218"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/1985218"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "PCB terminal block, nominal current: 8 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm, number of potentials: 4, number of rows: 1, number of positions per row: 4, product range: PTSA 1,5, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.5 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "13"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "651-1985218"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/c/?q=1985218"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1985218"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "1985218_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -5759,8 +6013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "KMLib_Connectors:1985195 PTSA Term Push Phoenix Contact")
-		(at 87.63 181.61 0)
+		(lib_id "KMLib_Connectors:1985218")
+		(at 87.63 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5780,7 +6034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1985195"
+		(property "Value" "1985218"
 			(at 83.566 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,8 +6045,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KMLib_Connectors:1985195"
-			(at 104.14 276.53 0)
+		(property "Footprint" "KMLib_Connectors:1985218"
+			(at 104.14 279.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,8 +6057,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00059072.pdf"
-			(at 104.14 376.53 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/1985218"
+			(at 104.14 379.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,8 +6069,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "PCB terminal block, nominal current: 8 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: PTSA 1,5, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.5 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row"
-			(at 87.63 181.61 0)
+		(property "Description" "PCB terminal block, nominal current: 8 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm, number of potentials: 4, number of rows: 1, number of positions per row: 4, product range: PTSA 1,5, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.5 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row"
+			(at 87.63 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5827,7 +6081,7 @@
 			)
 		)
 		(property "Height" "13"
-			(at 104.14 576.53 0)
+			(at 104.14 579.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,8 +6092,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "651-1985195"
-			(at 104.14 676.53 0)
+		(property "Mouser Part Number" "651-1985218"
+			(at 104.14 679.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,8 +6104,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1985195?qs=nq%2FEIFkB2fEpUV%252BqAaKYzQ%3D%3D"
-			(at 104.14 776.53 0)
+		(property "Mouser Price/Stock" "https://www.mouser.com/c/?q=1985218"
+			(at 104.14 779.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +6117,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 104.14 876.53 0)
+			(at 104.14 879.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,8 +6128,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1985195"
-			(at 104.14 976.53 0)
+		(property "Manufacturer_Part_Number" "1985218"
+			(at 104.14 979.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5891,6 +6145,12 @@
 		)
 		(pin "2"
 			(uuid "6e33cb60-942f-400d-8625-1593df6986df")
+		)
+		(pin "3"
+			(uuid "cb5a50ca-d1e8-4194-944b-7d1d13c233a5")
+		)
+		(pin "4"
+			(uuid "09528119-4e64-4e9c-a0d1-0ec14d242454")
 		)
 		(instances
 			(project "BREAD_Slice"
@@ -7983,6 +8243,129 @@
 			(type default)
 		)
 		(uuid "8fc2041c-f4ed-459c-89b0-c9485d6248a2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b324b4ad-9f99-46e1-8407-86f30426f83c")
+		(property "Reference" "#PWR024"
+			(at 80.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 192.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8423b63-4c44-4899-8c2c-ab1380660081")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 82.55 184.15) (xy 80.01 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830275cc-a9b3-4f8f-8819-d2ad03ec9ea1")
+	)
+	(wire
+		(pts
+			(xy 82.55 186.69) (xy 80.01 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcde18e-f623-4893-b449-6d7dd2456714")
+	)
+	(wire
+		(pts
+			(xy 80.01 184.15) (xy 80.01 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fd100e-c280-4515-b966-55c6ee4e10fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 186.69) (xy 80.01 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40e55bd-966b-4548-a2fa-4ba7c986039d")
+	)
+	(junction
+		(at 80.01 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d50cedcf-3e66-4bba-9e22-07cd93922d35")
 	)
 	(sheet_instances
 		(path "/"
