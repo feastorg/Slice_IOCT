@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -398,7 +398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -409,7 +409,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1398,7 +1398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP6023LE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1411,7 +1411,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-60 V P-MOSFET, reverse-polarity protection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2098,7 +2098,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron G3VM-61VY4 MOS FET relay, 60 V, 700 mA, special SOP 4-pin"
+		(property "Description" "MOS FET relay, 60 V, 700 mA AC peak/DC, 0.3 Ohm max, IFT 1 mA max, special SOP 4-pin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2285,7 +2285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/1985218"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2297,11 +2297,71 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PCB terminal block, nominal current: 8 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm, number of potentials: 4, number of rows: 1, number of positions per row: 4, product range: PTSA 1,5, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.5 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c61507e8-474d-45a7-a22d-e4306836f951")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "13"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c50ea4-b740-429c-ae0e-a20c0548c6f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "651-1985218"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd417a07-ceea-41f3-b0be-872b328472f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/c/?q=1985218"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc5209ea-b4b1-44b2-a791-8269972bd12a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b26a4032-83ad-48b7-bc37-8bf07ca027a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1985218"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca18682d-dc16-46c2-a95f-a4dc03b8a962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3804,7 +3864,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3955,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 33 V standoff, across the relay output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4224,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, 6.8 V input threshold"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6522,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron G3VM-61VY4 MOS FET relay, 60 V, 700 mA, special SOP 4-pin"
+		(property "Description" "MOS FET relay, 60 V, 700 mA AC peak/DC, 0.3 Ohm max, IFT 1 mA max, special SOP 4-pin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6861,7 +6921,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7212,7 +7272,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse-input clamp across the optocoupler LED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7481,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 33 V standoff, across the relay output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8893,7 +8953,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse-input clamp across the optocoupler LED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9160,7 +9220,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9711,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, 6.8 V input threshold"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9980,7 +10040,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, 6.8 V input threshold"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10449,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, 6.8 V input threshold"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10958,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse-input clamp across the optocoupler LED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11848,7 +11908,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron G3VM-61VY4 MOS FET relay, 60 V, 700 mA, special SOP 4-pin"
+		(property "Description" "MOS FET relay, 60 V, 700 mA AC peak/DC, 0.3 Ohm max, IFT 1 mA max, special SOP 4-pin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12525,7 +12585,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12779,7 +12839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x3 header + shunt: pins 2-3 bus +12V, pins 1-2 external +24V; 2 A max"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13405,7 +13465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13987,7 +14047,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 33 V standoff, across the relay output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14256,7 +14316,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse-input clamp across the optocoupler LED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15231,7 +15291,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron G3VM-61VY4 MOS FET relay, 60 V, 700 mA, special SOP 4-pin"
+		(property "Description" "MOS FET relay, 60 V, 700 mA AC peak/DC, 0.3 Ohm max, IFT 1 mA max, special SOP 4-pin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15430,7 +15490,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 33 V standoff, across the relay output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
