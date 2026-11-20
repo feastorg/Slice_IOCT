@@ -5,6 +5,320 @@
 	(uuid "dcdf98c8-bf12-4f7f-a180-1390a32d152b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Transistor_FET:ZXMP4A16G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ZXMP4A16G"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZXMP4A16G_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZXMP4A16G_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -807,7 +1121,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ24CA"
+		(symbol "Diode:SMAJ30CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -895,7 +1209,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ24CA_0_1"
+			(symbol "SMAJ30CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -945,7 +1259,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ24CA_1_1"
+			(symbol "SMAJ30CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1252,9 +1566,9 @@
 		)
 		(uuid "267e796b-918b-4128-ae31-1b72a9c2e999")
 	)
-	(text "electrolytic or polymer, ≥35-50 V"
+	(text "C8: electrolytic, ≥63 V\n(D4 clamps at 48.4 V)"
 		(exclude_from_sim no)
-		(at 158.242 92.71 0)
+		(at 69.85 137.16 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -1262,7 +1576,7 @@
 		)
 		(uuid "3627492f-3420-47eb-ada7-a8497badcc59")
 	)
-	(text "Optional \nTVS diode"
+	(text "Input TVS"
 		(exclude_from_sim no)
 		(at 188.214 92.456 0)
 		(effects
@@ -1285,12 +1599,6 @@
 		(uuid "23945bc5-8430-44ea-a43a-b10b546bbfd0")
 	)
 	(junction
-		(at 160.02 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27473f4c-79c4-430e-af60-9de170335a36")
-	)
-	(junction
 		(at 67.31 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1301,12 +1609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c9db1f-08d3-4d39-b277-490d63c3d766")
-	)
-	(junction
-		(at 99.06 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37810c1b-9f15-40a5-a5d9-080296bc3b7a")
 	)
 	(junction
 		(at 172.72 81.28)
@@ -1333,28 +1635,10 @@
 		(uuid "a45a999e-1da2-460e-a466-c73eeadbf82f")
 	)
 	(junction
-		(at 144.78 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c55d49f2-62d0-4b33-bada-1cac257336b9")
-	)
-	(junction
 		(at 172.72 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de2e453b-a17c-4ef4-ac0a-812721388034")
-	)
-	(junction
-		(at 160.02 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1fb8916-5862-4327-a50e-43f36bbe0670")
-	)
-	(junction
-		(at 144.78 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc12de4c-24d0-4c7f-bf35-836563d94fa6")
 	)
 	(wire
 		(pts
@@ -1408,16 +1692,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 144.78 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d4dbdf-d092-4b2d-bf82-18acb9221c73")
-	)
-	(wire
-		(pts
 			(xy 57.15 99.06) (xy 67.31 99.06)
 		)
 		(stroke
@@ -1445,16 +1719,6 @@
 			(type default)
 		)
 		(uuid "3c22fba3-9c31-43d3-a422-b6f201434b95")
-	)
-	(wire
-		(pts
-			(xy 160.02 104.14) (xy 160.02 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a55b8b-45f1-4375-9984-d93e7abce2f4")
 	)
 	(wire
 		(pts
@@ -1548,26 +1812,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 99.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e73b6eb-1184-4c75-844f-f86c52dc375e")
-	)
-	(wire
-		(pts
-			(xy 144.78 96.52) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7fda93-a570-4e2c-a563-699fe4e05fb8")
-	)
-	(wire
-		(pts
 			(xy 144.78 123.19) (xy 144.78 128.27)
 		)
 		(stroke
@@ -1578,17 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 144.78 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fc1bbd-585f-4d95-8ce1-0275b4d1e46d")
-	)
-	(wire
-		(pts
-			(xy 88.9 99.06) (xy 101.6 99.06)
+			(xy 88.9 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1598,17 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 160.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0218cbe-74d3-4c57-bff4-93450ac4864c")
-	)
-	(wire
-		(pts
-			(xy 67.31 128.27) (xy 106.68 128.27)
+			(xy 67.31 128.27) (xy 78.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 88.9 99.06)
+			(xy 67.31 99.06) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1668,16 +1892,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bc3a59-0aae-4533-82a3-dc68381104da")
-	)
-	(wire
-		(pts
 			(xy 57.15 128.27) (xy 67.31 128.27)
 		)
 		(stroke
@@ -1698,17 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 93.98) (xy 101.6 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc49fa21-fb3c-4d64-b392-e56806bbd787")
-	)
-	(wire
-		(pts
-			(xy 144.78 81.28) (xy 99.06 81.28)
+			(xy 144.78 81.28) (xy 119.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1756,26 +1960,6 @@
 		)
 		(uuid "fe9a3e9d-1b2f-4386-8686-e6a5cef9420e")
 	)
-	(wire
-		(pts
-			(xy 99.06 93.98) (xy 99.06 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec1e310-3224-4c3a-b617-29559d591cd1")
-	)
-	(wire
-		(pts
-			(xy 99.06 96.52) (xy 101.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fee58e4d-e569-42de-8558-050cb525ab5c")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 57.15 128.27 180)
@@ -1821,161 +2005,7 @@
 		(uuid "eaa06086-3e4f-4299-b467-1a41dc7da459")
 	)
 	(symbol
-		(lib_id "KMLib_Discrete_Semiconductors:NTGS4111PT1G")
-		(at 127 93.98 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c38a3eb-2c0d-41ee-90ce-7c9cf2aa81eb")
-		(property "Reference" "Q1"
-			(at 114.3 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NTGS4111PT1G"
-			(at 114.3 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KMLib_IC_SMD:SOT95P275X110-6N"
-			(at 105.41 188.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTGS4111P-D.PDF"
-			(at 105.41 288.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Leading -30 V, Trench Process for Low RDS(on); Low Profile Package Suitable for Portable Applications; Surface Mount TSOP-6 Saves Board Space; Improved Efficiency for Battery Applications"
-			(at 127 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 105.41 488.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "863-NTGS4111PT1G"
-			(at 105.41 588.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTGS4111PT1G?qs=ZXBb0xZ9WeBFwyU7dgOqzw%3D%3D"
-			(at 105.41 688.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 105.41 788.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NTGS4111PT1G"
-			(at 105.41 888.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "efa7e896-e90f-46d1-878c-711be1e54c47")
-		)
-		(pin "3"
-			(uuid "c1016c8f-9a42-431e-8db7-af03fb12a170")
-		)
-		(pin "2"
-			(uuid "b73bf4d6-a84c-4285-813c-7a7f66e44b8e")
-		)
-		(pin "5"
-			(uuid "1fe3b23c-2879-4839-8cc1-20685ee32685")
-		)
-		(pin "6"
-			(uuid "be11d5f5-ee57-4077-ad98-3d786b21066f")
-		)
-		(pin "4"
-			(uuid "3a3c555c-7684-4b5e-97c2-7a027e2f5daf")
-		)
-		(instances
-			(project ""
-				(path "/66043bca-a260-4915-9fce-8a51d324c687/2fc3e555-07d7-44ca-9332-cea1fde8760a"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ24CA")
+		(lib_id "Diode:SMAJ30CA")
 		(at 189.23 99.06 90)
 		(mirror x)
 		(unit 1)
@@ -1997,7 +2027,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ24CA"
+		(property "Value" "SMAJ30CA"
 			(at 182.118 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2138,7 +2168,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 160.02 100.33 0)
+		(at 78.74 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2148,29 +2178,29 @@
 		(dnp no)
 		(uuid "7cb046df-ac96-4b89-a17d-a14d2b97d7c5")
 		(property "Reference" "C8"
-			(at 161.036 95.504 0)
+			(at 76.2 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 161.036 98.044 0)
+		(property "Value" "10u 63V"
+			(at 76.2 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
-			(at 160.9852 104.14 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 79.7052 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 100.33 0)
+			(at 78.74 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +2222,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 160.02 100.33 0)
+			(at 78.74 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,25 +2425,25 @@
 		(fields_autoplaced yes)
 		(uuid "fb9f0990-a997-4908-b11b-7bb96e94ba45")
 		(property "Reference" "D3"
-			(at 86.36 105.4099 90)
+			(at 91.44 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MM3Z18VT1G"
-			(at 86.36 107.9499 90)
+			(at 91.44 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
@@ -2567,5 +2597,179 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMP4A16G")
+		(at 114.3 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9a9f7f7-5ee2-431e-8046-decb06540239")
+		(property "Reference" "Q1"
+			(at 104.14 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP6023LE"
+			(at 104.14 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP6023LE.pdf"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-60 V P-MOSFET, reverse-polarity protection"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8755a830-24e4-4ab6-b947-5d219de69d33")
+		)
+		(pin "2"
+			(uuid "0c583961-cef3-4da8-b259-e7971102f715")
+		)
+		(pin "3"
+			(uuid "4c7b4994-da93-4abf-b327-101e28f20e24")
+		)
+		(instances
+			(project ""
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/2fc3e555-07d7-44ca-9332-cea1fde8760a"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f50ba1b-736e-4068-bd5e-d3bfb408c567")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a43a362-39c5-4a65-ac6b-77985b18e0cb")
+	)
+	(label "Q1_G"
+		(at 114.3 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "228116b6-9406-47ba-8807-a4ef8e39ac0c")
+	)
+	(label "Q1_G"
+		(at 127 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "672c4b5d-b3e8-4f18-9e8a-ee40320473b4")
+	)
+	(wire
+		(pts
+			(xy 78.74 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944da54c-1769-4337-9850-47c76f6fc722")
+	)
+	(wire
+		(pts
+			(xy 78.74 128.27) (xy 106.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4727d646-7625-4bcd-bdbf-7604a2e68dc3")
+	)
+	(wire
+		(pts
+			(xy 78.74 99.06) (xy 78.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff45e9f0-6832-4108-aba1-3851315a6733")
+	)
+	(wire
+		(pts
+			(xy 78.74 116.84) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8338ef85-8c63-42e7-b62e-72a5c1219516")
+	)
+	(junction
+		(at 78.74 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8abd651e-4777-4d14-9831-a46524250397")
+	)
+	(junction
+		(at 78.74 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda48f04-b366-43e8-9bbf-4b5ced08f7da")
 	)
 )
