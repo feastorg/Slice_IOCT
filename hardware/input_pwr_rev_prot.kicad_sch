@@ -1144,7 +1144,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ24CA"
+			(property "Value" "SMAJ30CA"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,7 +1176,7 @@
 					)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
