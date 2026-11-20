@@ -133,13 +133,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.83 90)
+			(at 2.93 0 0)
 			(layer "F.SilkS")
 			(uuid "c656e6da-9448-4a71-b667-e422a63d46fe")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -282,14 +282,14 @@
 		(descr "Net tie, 2 pin, 2.0mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT2"
-			(at 0 -2 0)
+			(at 4.2125 1.6531 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8e644498-cddb-4530-a853-37cd1a2b28e8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -377,13 +377,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 0)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(uuid "e2bef693-ed33-4f52-9fb5-448f6729bec4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -746,13 +746,13 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U2"
-			(at 0 -3.6 0)
+			(at 0 3.44 0)
 			(layer "F.SilkS")
 			(uuid "02a33fc2-e1fb-4eb3-9811-8762b247e72d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -1377,13 +1377,13 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q1"
-			(at 0 -4.5 0)
+			(at 0 -4.25 0)
 			(layer "F.SilkS")
 			(uuid "c073febb-28d6-470f-908a-6167f6b52aed")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -2065,13 +2065,13 @@
 		(descr "Omron G3VM-61VY4 special SOP 4-pin, body 4.55x3.7 mm, 2.54 mm pitch, lead span 7.0 mm; pads per Omron K347-E1 recommended mounting pad dimensions")
 		(tags "SOP-4 photo MOSFET relay Omron G3VM")
 		(property "Reference" "U9"
-			(at 0 -3.1 0)
+			(at 4.624 0 0)
 			(layer "F.SilkS")
 			(uuid "e549a67f-4144-4d3e-9a60-d5d2f4bdfea9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -2263,13 +2263,13 @@
 		(descr "1985218")
 		(tags "Connector")
 		(property "Reference" "J1"
-			(at 7.75 3.7 0)
+			(at -1.874 3.7 0)
 			(layer "F.SilkS")
 			(uuid "0a8cea05-af5f-4408-acac-6fe19e3d06f3")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -3296,13 +3296,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.83 90)
+			(at 2.93 0 0)
 			(layer "F.SilkS")
 			(uuid "1e2d24e2-dd9e-4ffd-8fd7-e6792016d8bc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -3832,13 +3832,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "a5d5da0c-8c29-4df3-a0df-87b902502e86")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -3981,13 +3981,13 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D13"
-			(at 0 -2 180)
+			(at 3.536 0 0)
 			(layer "F.SilkS")
 			(uuid "706129d2-b8b7-43bb-bdee-59918152178b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4250,13 +4250,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D6"
-			(at 0 -1.85 90)
+			(at 0 -1.824 0)
 			(layer "F.SilkS")
 			(uuid "9dee8013-6a03-4324-8177-b75c935657c5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4784,13 +4784,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "216459e0-ba11-47b4-98f4-de2d199da87d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4926,13 +4926,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "9853348f-02d7-402a-8814-d4e721dda8f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -6144,13 +6144,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3"
-			(at 0 -1.85 90)
+			(at 2.0142 1.713 0)
 			(layer "F.SilkS")
 			(uuid "607e3383-4a1c-40c2-aafe-cbe76d4ec0d6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -6549,13 +6549,13 @@
 		(descr "Omron G3VM-61VY4 special SOP 4-pin, body 4.55x3.7 mm, 2.54 mm pitch, lead span 7.0 mm; pads per Omron K347-E1 recommended mounting pad dimensions")
 		(tags "SOP-4 photo MOSFET relay Omron G3VM")
 		(property "Reference" "U7"
-			(at 0 -3.1 0)
+			(at 4.624 0 0)
 			(layer "F.SilkS")
 			(uuid "4fc50358-a9ff-4b27-9b2a-bef517eb6d92")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -6747,13 +6747,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "6f1fa890-f0f9-4f22-b5d8-94c5acecbd92")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -6889,13 +6889,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 90)
+			(at 2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "7cc155cc-3249-4a62-a795-9c9a304dcf65")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7038,13 +7038,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "4d3358e3-8252-4ad1-9a6a-3d795aed17e0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7238,13 +7238,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D11"
-			(at 0 -1.85 90)
+			(at 2.4142 2.3336 0)
 			(layer "F.SilkS")
 			(uuid "24c7b330-fb23-4a18-98a8-1e1faaa5f0f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -7507,13 +7507,13 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D14"
-			(at 0 -2 180)
+			(at 3.536 0 0)
 			(layer "F.SilkS")
 			(uuid "eb8672ef-f081-4629-9280-8550f67deaf3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -8919,13 +8919,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D10"
-			(at 0 -1.85 90)
+			(at -2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "82e284ff-4c09-48cd-a257-92818a9598b5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9188,13 +9188,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.83 90)
+			(at -2.93 0 0)
 			(layer "F.SilkS")
 			(uuid "7baf9b9c-1fa5-47f2-8d2e-af1569db9b1b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9337,13 +9337,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "c6fc26ce-2f18-47b5-8ee2-357b5806c758")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9537,13 +9537,13 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.85 270)
+			(at 0 2.024 0)
 			(layer "F.SilkS")
 			(uuid "06ef283e-f27c-4d22-81af-ff8c899a7a86")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -9737,13 +9737,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D5"
-			(at 0 -1.85 90)
+			(at 0 -1.824 0)
 			(layer "F.SilkS")
 			(uuid "50a765ba-ce97-4245-b1fd-3f793fb385f6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10006,13 +10006,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D7"
-			(at 0 -1.85 90)
+			(at 0 -1.824 0)
 			(layer "F.SilkS")
 			(uuid "202ea472-fecc-480c-9eb1-e1290802179c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10275,13 +10275,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "ba60c133-3955-4f86-94a6-6fae6ac069ad")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10475,13 +10475,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D8"
-			(at 0 -1.85 90)
+			(at 2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "eaf55a7d-7377-49b4-8a5e-96ac608b848e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10744,13 +10744,13 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U4"
-			(at 0 -3.6 0)
+			(at 0 3.44 0)
 			(layer "F.SilkS")
 			(uuid "81f534ac-ba91-4458-b07a-a3ed21d6c637")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -10984,13 +10984,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D12"
-			(at 0 -1.85 90)
+			(at 2.4142 2.3336 0)
 			(layer "F.SilkS")
 			(uuid "9011580b-3eea-4395-a5e1-8b26da645568")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -11875,13 +11875,13 @@
 		(descr "Omron G3VM-61VY4 special SOP 4-pin, body 4.55x3.7 mm, 2.54 mm pitch, lead span 7.0 mm; pads per Omron K347-E1 recommended mounting pad dimensions")
 		(tags "SOP-4 photo MOSFET relay Omron G3VM")
 		(property "Reference" "U6"
-			(at 0 -3.1 0)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(uuid "a7e22d8d-cb00-46e6-90b9-511f297cf1c0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -12073,13 +12073,13 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U3"
-			(at 0 -3.6 0)
+			(at 0 3.44 0)
 			(layer "F.SilkS")
 			(uuid "8092b269-c492-4074-9f59-b682b3fad2e8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -12313,13 +12313,13 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U5"
-			(at 0 -3.6 0)
+			(at 0 3.44 0)
 			(layer "F.SilkS")
 			(uuid "9bfff483-a409-40d6-be53-428138f5e2b7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -12553,13 +12553,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.83 90)
+			(at -2.93 0 0)
 			(layer "F.SilkS")
 			(uuid "c183f789-9422-44ff-8e13-15cdab135a03")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -12807,13 +12807,13 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "JP1"
-			(at 0 -2.38 0)
+			(at 0 -2.42 0)
 			(layer "F.SilkS")
 			(uuid "9b6d7b2d-005c-4b93-bb17-d0b9c900dbae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -13433,13 +13433,13 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C8"
-			(at 0 -4.35 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "e89ce02e-2077-45a0-bd3f-4ed8b896a2d7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -13871,13 +13871,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 2.225 -0.6 180)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "05ebbd36-82df-4bc2-aace-05e9fd2195ee")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14013,13 +14013,13 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D15"
-			(at 0 -2 180)
+			(at 3.536 0 0)
 			(layer "F.SilkS")
 			(uuid "f402d2fc-acc8-4d42-91bc-bbacb38f7253")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14282,13 +14282,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D9"
-			(at 0 -1.85 90)
+			(at -2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "f237ecfa-638b-4135-97ef-d3470b875338")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14552,16 +14552,15 @@
 		(descr "Pin count: 4, Size: 5.0 x 5.0 mm, Datasheet referenced for footprint: http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf")
 		(tags "SparkFun")
 		(property "Reference" "D2"
-			(at 0 -2.794 0)
+			(at 0 -3.45 0)
 			(layer "F.Fab")
 			(uuid "5696bb0b-b796-4a29-8539-1c906b38733c")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
+					(size 0.8 0.8)
+					(thickness 0.12)
 					(bold yes)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Value" "WS2812B_5050"
@@ -14858,13 +14857,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "3841c64f-b6eb-4a29-8696-1cc18cc81484")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15058,13 +15057,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.43 90)
+			(at -2.13 0 0)
 			(layer "F.SilkS")
 			(uuid "775c028d-c53e-483f-bd66-4e1b89e1f57c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15258,13 +15257,13 @@
 		(descr "Omron G3VM-61VY4 special SOP 4-pin, body 4.55x3.7 mm, 2.54 mm pitch, lead span 7.0 mm; pads per Omron K347-E1 recommended mounting pad dimensions")
 		(tags "SOP-4 photo MOSFET relay Omron G3VM")
 		(property "Reference" "U8"
-			(at 0 -3.1 0)
+			(at 4.624 0 0)
 			(layer "F.SilkS")
 			(uuid "e128cfff-ab06-4646-bce9-4724ffedf8c2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15456,13 +15455,13 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D16"
-			(at 0 -2 180)
+			(at 0 1.8 0)
 			(layer "F.SilkS")
 			(uuid "108d7b7d-cf37-4330-ab39-42caa3c77722")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15779,7 +15778,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "Heat Sink"
-			(at 0 -6.7 0)
+			(at 0 6.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e092a096-33f7-4b52-b51d-022fbbd3f3e0")
@@ -17363,7 +17362,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D4"
-			(at 0 4.2 0)
+			(at 4.1 0 0)
 			(layer "B.SilkS")
 			(uuid "6c4dad3a-4207-43d4-a3ea-0f419523e5e4")
 			(effects
@@ -18494,57 +18493,93 @@
 			(justify left top)
 		)
 	)
-	(gr_text "OUT1"
-		(at 148.5 67 0)
+	(gr_text "J3 IN   1 IN1+  2 IN1-  3 GND | 4-6 IN2 | 7-9 IN3 | 10-12 IN4"
+		(at 135.1 42.8 0)
 		(layer "F.SilkS")
-		(uuid "4a50a0fb-461b-4c3f-bdb9-5a0f16c52c8b")
+		(uuid "ad58b981-87f6-402c-b4d7-a5cf2bce147f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
-	(gr_text "OUT2"
-		(at 148.5 69.5 0)
+	(gr_text "J2 OUT  1 OUT1-  2 OUT1+  3 VF | 4-6 OUT2 | 7-9 OUT3 | 10-12 OUT4"
+		(at 135.1 44.6 0)
 		(layer "F.SilkS")
-		(uuid "f2cd655b-1cea-422f-a8e7-fec650310250")
+		(uuid "ca98227e-8ca9-4fc3-ab5b-c444df390f7b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
-	(gr_text "OUT3"
-		(at 148.5 72 0)
+	(gr_text "J1 PWR  1 +24V IN  2 0V IN  3,4 GND (load return)"
+		(at 135.1 46.4 0)
 		(layer "F.SilkS")
-		(uuid "eeddad74-1468-4e33-bd4d-7bcea0dd6765")
+		(uuid "040c71e4-6c9b-435c-982a-b7ff19ce662e")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
-	(gr_text "OUT4"
-		(at 148.5 74.5 0)
+	(gr_text "JP1  1-2: VF = 24V in   2-3: VF = bus 12V   VF 2 A max"
+		(at 135.1 48.2 0)
 		(layer "F.SilkS")
-		(uuid "fd6b7bd1-a3b9-4008-909e-5b2ed2b7539b")
+		(uuid "2f473dca-1dec-499b-8de3-0c2de31a205b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
-			(justify left bottom)
+			(justify left)
+		)
+	)
+	(gr_text "24V"
+		(at 164.3 119 0)
+		(layer "F.SilkS")
+		(uuid "d17e1c08-43aa-4ea6-8011-ecb394986f3a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "VF"
+		(at 164.3 121.54 0)
+		(layer "F.SilkS")
+		(uuid "b92acb55-fac0-4f29-aa65-7660c701f8f8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "12V"
+		(at 164.3 124.08 0)
+		(layer "F.SilkS")
+		(uuid "c9ad796b-f93f-406f-9afe-7ebb84a09db3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
 		)
 	)
 	(gr_text "LED"
 		(locked yes)
-		(at 178.4 136.2 0)
+		(at 141.2 73.3 0)
 		(layer "F.SilkS")
 		(uuid "37836433-5ad0-483f-98ba-fe7a5e981f16")
 		(effects
@@ -18554,7 +18589,7 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nI/O Controller\nSLC_IOCT\nR1 01-2026"
+	(gr_text "BREAD Slice\nI/O Controller\nSLC_IOCT\nR2 11-2026"
 		(at 128.525 103.875 270)
 		(layer "F.SilkS")
 		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
