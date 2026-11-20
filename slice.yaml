@@ -6,12 +6,12 @@ name: "Industrial Digital I/O Controller"
 status: "prototype"
 category: "interface"
 
-summary: "PLC-style 6-input 4-output isolated digital I/O slice for 24V field devices."
+summary: "PLC-style 4-input 4-output isolated digital I/O slice for 12-24 V field devices."
 description: null
 
 # ── Versioning ────────────────────────────────────────────────────────────────
 version:
-  hardware: "0.1.0"
+  hardware: "0.2.0"
   firmware: null
   manifest: "0.1.0"
 
@@ -31,8 +31,8 @@ hardware:
       - "ATmega328P"
       - "ATmega4809"
   primary_ic:
-    manufacturer: "IXYS/Littelfuse"
-    part_number: "CPC1002N"
+    manufacturer: "Omron"
+    part_number: "G3VM-61VY4"
   hw_gen_current: 1
   hw_gen_supported: [1]
   pcb:
@@ -41,15 +41,18 @@ hardware:
     copper_weight: "1oz"
     dimensions: "70mm x 100mm"
   connectors:
-    - ref: "J1"
+    - ref: "J4"
       type: "slice-bus-10pin"
       purpose: "power-and-i2c"
-    - ref: "J_IN"
+    - ref: "J3"
       type: "terminal-block-12pos"
-      purpose: "24v-digital-inputs"
-    - ref: "J_OUT"
-      type: "terminal-block-8pos"
+      purpose: "12-24v-digital-inputs"
+    - ref: "J2"
+      type: "terminal-block-12pos"
       purpose: "ssr-digital-outputs"
+    - ref: "J1"
+      type: "terminal-block-4pos"
+      purpose: "field-supply-input-and-load-return"
   mounting:
     pattern: "slice-standard-v0"
     hole_size: "M3"
@@ -88,10 +91,6 @@ interfaces:
         type: "digital-24v"
       - name: "IN4"
         type: "digital-24v"
-      - name: "IN5"
-        type: "digital-24v"
-      - name: "IN6"
-        type: "digital-24v"
     outputs:
       - name: "OUT1"
         type: "ssr-24v"
@@ -105,7 +104,7 @@ interfaces:
 # ── Capabilities ──────────────────────────────────────────────────────────────
 capabilities:
   - id: "digital_input"
-    channels: 6
+    channels: 4
     control_modes: []
   - id: "ssr_output"
     channels: 4
@@ -191,7 +190,7 @@ repository:
 # ── Metadata ──────────────────────────────────────────────────────────────────
 metadata:
   created: "2026-05-19"
-  updated: "2026-05-19"
+  updated: "2026-11-19"
   tags:
     - "digital-io"
     - "industrial"
