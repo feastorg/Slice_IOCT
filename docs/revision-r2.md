@@ -83,8 +83,8 @@ max at 4.5 V) drops 0.06 V at the 11.6 mA of four relays.
 
 ### Layout and documentation
 
-- Terminal labels on the silkscreen for J1, J2 and J3, and a revision mark of
-  `R2`.
+- A terminal legend for J1, J2, J3 and JP1 along the top edge, and a revision
+  mark of `R2`.
 - Output and signal tracks at least 0.5 mm (the G3 design constraint).
 - `slice.yaml`, `README.md`, `docs/architecture.md` and `docs/testing.md`
   brought in line with the board: 4 inputs, 4 outputs, the real connector
@@ -122,3 +122,8 @@ The G3VM-61VY4 and 1985218 symbols and footprints come from KiCad-Master-Lib
 - Per-channel status LEDs, for a later revision.
 - Two ERC warnings remain, both in the shared slice template: its `GND` and
   `GNDPWR` local labels share names with power symbols.
+- DRC warnings left on the board: silkscreen edge clearance on J4, A1 and J1,
+  which sit on the board edge by design; and 13 footprints whose KiCad 10
+  library copy draws its outlines as rectangles instead of lines (pads and
+  geometry match). KiCad's Update Footprints from Library clears the second
+  set.
