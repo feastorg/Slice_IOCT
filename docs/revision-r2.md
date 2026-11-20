@@ -52,9 +52,9 @@ before; when it drops low, or the slice is unplugged, every output turns off,
 whatever the firmware does. The Nano still reads the line on D2. SW3 is
 removed.
 
-LED current through the relay: (5 − 1.36 V) / 1.3 kΩ = 2.8 mA, above the
-CPC1002N's 2 mA maximum operate current. The 2N7002's on-resistance at 5 V
-gate drive adds well under 0.1 V for the 11 mA of four relays.
+LED current through the relay: (5 − 1.27 V) / 1.3 kΩ = 2.9 mA, against the
+G3VM-61VY4's 1 mA maximum trigger current. The 2N7002's on-resistance (5.3 Ω
+max at 4.5 V) drops 0.06 V at the 11.6 mA of four relays.
 
 ### Input power path
 
@@ -66,8 +66,8 @@ gate drive adds well under 0.1 V for the 11 mA of four relays.
 
 ### Outputs (×4)
 
-- An SMF33A TVS across each relay (cathode on DC+): 33 V standoff, above the
-  30 V maximum VFIELD; 53.3 V clamp, below the relay's 60 V.
+- An SMF33A TVS across each relay (cathode on OUTx+): 33 V standoff, above
+  the 30 V maximum VFIELD; 53.3 V clamp, below the relay's 60 V.
 - Nets renamed so OUTx+ is DC+ (pin 4) and OUTx− is DC− (pin 3) on every
   channel. Wet contact: link VFIELD to OUTx+ (the next terminal), and wire the
   load between OUTx− and GND.
@@ -91,11 +91,34 @@ gate drive adds well under 0.1 V for the 11 mA of four relays.
   references and the pin map.
 - ERC and DRC clean, including the two dangling I2C labels.
 
+### Output relay
+
+The CPC1002N is marked "Not For New Designs" (R09), Digi-Key lists it as
+obsolete, and the rest of Littelfuse's 4-pin SOP 1-Form-A line is NFND. r2
+uses the Omron G3VM-61VY4 (K347-E1): 60 V, 700 mA AC peak/DC, 0.3 Ω maximum,
+1 mA maximum trigger current, the same pin-out. Its land pattern follows
+Omron's recommended pads (lead span 7.0 mm against the CPC1002N's 6.1 mm).
+Omron recommends a load voltage of 48 V or less, above the 30 V maximum
+VFIELD.
+
+## Parts checked against their datasheets
+
+| Part | Values used | Source |
+| --- | --- | --- |
+| 2N7002 | VDS 60 V, VGS ±30 V, VGS(th) 2.5 V max, RDS(on) 5.3 Ω max at 4.5 V | Nexperia, Rev. 7 |
+| 1N4148WS | VRRM 100 V (Vishay; onsemi 75 V), IF 150 mA | Vishay 85751 Rev. 2.3 |
+| SMF33A | VWM 33 V, VBR 36.7 V min, VC 53.3 V at 3.8 A, 200 W | Littelfuse SMF, rev. 11/02/23 |
+| SMAJ30CA | VWM 30 V, VBR 33.3 V min, VC 48.4 V at 8.3 A | Vishay SMAJ |
+| DMP6023LE | −60 V, ±20 V gate, 28 mΩ at −10 V, SOT-223 G-D-S | Diodes Inc. |
+| MM3Z6V8 | 6.4–7.2 V | onsemi MM3Z series |
+| G3VM-61VY4 | as above | Omron K347-E1 |
+| J1 | Phoenix PTSA 1,5/ 4-3,5-Z, order no. 1985218, 8 A (IEC) | Phoenix catalog page |
+
+The G3VM-61VY4 and 1985218 symbols and footprints come from KiCad-Master-Lib
+(branch `feat/ioct-r2-parts`).
+
 ## Still open
 
-- The CPC1002N is marked "Not For New Designs" (R09). r2 keeps it unless a
-  drop-in replacement is found.
-- 2N7002, 1N4148WS and SMF33A ratings are taken from their standard series
-  values and still to be read from a primary datasheet.
-- The Phoenix order number for the 4-position J1.
 - Per-channel status LEDs, for a later revision.
+- Two ERC warnings remain, both in the shared slice template: its `GND` and
+  `GNDPWR` local labels share names with power symbols.
