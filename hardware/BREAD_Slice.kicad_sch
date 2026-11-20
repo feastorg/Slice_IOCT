@@ -724,7 +724,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1990106"
+			(property "Footprint" "KMLib_Connectors:1990106"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3319,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 57.15 115.57)
-		)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(uuid "52231709-d8ea-47b8-b164-6c873f3b9cfb")
-	)
-	(wire
-		(pts
 			(xy 153.67 160.02) (xy 153.67 132.08)
 		)
 		(stroke
@@ -4179,16 +4169,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 57.15 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(uuid "f2b90aa2-31fe-43b7-b793-96d275d0380f")
-	)
-	(wire
-		(pts
 			(xy 130.81 25.4) (xy 162.56 25.4)
 		)
 		(stroke
@@ -4297,16 +4277,6 @@
 		)
 		(uuid "408afcf6-0e00-4d68-a323-324eb7ec6911")
 	)
-	(label "+12V"
-		(at 46.99 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b17403f-5936-4393-9e1d-e40bcfc2e099")
-	)
 	(label "OUT1"
 		(at 57.15 100.33 180)
 		(effects
@@ -4396,16 +4366,6 @@
 			(justify left bottom)
 		)
 		(uuid "801d7d2e-9b3f-4458-a872-c47b29cc568f")
-	)
-	(label "I2C_CLK"
-		(at 57.15 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "807f5bb6-c2fc-4943-9715-4a6c73d8ae81")
 	)
 	(label "IN3-"
 		(at 135.89 162.56 0)
@@ -4656,16 +4616,6 @@
 			(justify left bottom)
 		)
 		(uuid "feed6337-ebbc-4a19-bb70-e08b048392fa")
-	)
-	(label "I2C_DAT"
-		(at 57.15 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff6dee2d-621b-4de5-85b3-b2dacaa29e4c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8366,6 +8316,91 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d50cedcf-3e66-4bba-9e22-07cd93922d35")
+	)
+	(no_connect
+		(at 49.53 115.57)
+		(uuid "84eb17aa-85c5-4fa1-a7a0-72f02e24a6d9")
+	)
+	(no_connect
+		(at 49.53 119.38)
+		(uuid "b45aceef-8c38-438d-8917-179b091f9c02")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 46.99 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e23c4350-f0bf-4402-8b3b-f0f163daf5df")
+		(property "Reference" "#PWR025"
+			(at 46.99 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 46.99 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 46.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2818ecf-78b7-4a3f-941c-97f5d60955dc")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
