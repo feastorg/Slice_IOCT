@@ -101,6 +101,19 @@ Omron's recommended pads (lead span 7.0 mm against the CPC1002N's 6.1 mm).
 Omron recommends a load voltage of 48 V or less, above the 30 V maximum
 VFIELD.
 
+### Slice template r4
+
+IOCT's copy of the slice template sheet takes the same changes as the
+template's own review (feastorg/Slice_TEMP_NANO_S2L-r2#2):
+
+- Nano power is a build option. The AP63205 buck feeds the Nano's 5V pin by
+  default; D1, C5 and C6 (the VIN path) are DNP. Fitting them and omitting the
+  buck is option B, for 5 V loads under about 100 mA.
+- SW2, the comms DIP, becomes JP2–JP5, solder jumpers bridged for I²C.
+- R16 (1 kΩ) sits between the bus e-stop line and D2; the interlock stays on
+  the bus side.
+- C10 (100 nF) decouples the WS2812B.
+
 ## Parts checked against their datasheets
 
 | Part | Values used | Source |

@@ -57,9 +57,9 @@ This Slice is designed to be a rugged digital input and output slice that can in
 | A1 | OUT2 | OUT2 | |
 | A2 | OUT3 | OUT3 | |
 | A3 | OUT4 | OUT4 | |
-| D2 | E-stop | ESTOP | Low = stop; read without the internal pull-up |
+| D2 | E-stop | ESTOP via R16 (1 k) | Low = stop; read without the internal pull-up |
 | D5 | Status LED | LED | WS2812B data |
-| A4, A5 | I²C | via SW2 | SW2 closed = I²C, open = CAN |
+| A4, A5 | I²C | via JP2–JP3 | Solder jumpers JP2–JP5 bridged = I²C (default); cut all four for CAN |
 
 ### DUMP
 
