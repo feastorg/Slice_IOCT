@@ -539,24 +539,25 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.25,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 1,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HV Relay",
+        "name": "Field",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -569,108 +570,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "",
-        "pattern": ""
+        "netclass": "Field",
+        "pattern": "/VFIELD"
       },
       {
-        "netclass": "HV Relay",
-        "pattern": "NC2"
+        "netclass": "Field",
+        "pattern": "/+24V"
       },
       {
-        "netclass": "HV Relay",
-        "pattern": "NO2"
+        "netclass": "Field",
+        "pattern": "/Input Power Protection/INPUT_VDD"
       },
       {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "HV Line"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPA2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPB2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NC1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NO1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN1B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN2B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN3B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN4B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN5B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "IN6B"
+        "netclass": "Field",
+        "pattern": "/Input Power Protection/INPUT_GND"
       }
     ]
   },
