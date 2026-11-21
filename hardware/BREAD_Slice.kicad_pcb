@@ -3007,7 +3007,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/SYNC{slash}CAN_{INT}")
+			(net "/slice_template/INT{slash}CAN_{INT}")
 			(pinfunction "D3")
 			(pintype "bidirectional")
 			(uuid "b5bd9f16-670d-4ad7-bd49-1a0a317e1fb5")
@@ -3018,7 +3018,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/INT{slash}CAN_{CS}")
+			(net "/slice_template/SYNC{slash}CAN_{CS}")
 			(pinfunction "D4")
 			(pintype "bidirectional")
 			(uuid "c52511c3-2e5f-43ae-ae9e-bb4e894c17d1")
@@ -3456,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Value" "INT bus link"
+		(property "Value" "SYNC bus link"
 			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "2ca856f5-e513-4868-91bc-e52f163d9ca0")
@@ -3480,7 +3480,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus INT to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus SYNC to the Nano (I2C); cut for CAN"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3651,7 +3651,7 @@
 			(at -0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/INT")
+			(net "/slice_template/SYNC")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -3685,7 +3685,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/INT{slash}CAN_{CS}")
+			(net "/slice_template/SYNC{slash}CAN_{CS}")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -9570,7 +9570,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/SYNC")
+			(net "/slice_template/INT")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "f3c0d087-9ec3-4da1-8659-9f626340f6de")
@@ -9581,7 +9581,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/INT")
+			(net "/slice_template/SYNC")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "a095749b-d952-450d-ae8d-2aa750f4e9d9")
@@ -13574,7 +13574,7 @@
 				)
 			)
 		)
-		(property "Value" "SYNC bus link"
+		(property "Value" "INT bus link"
 			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "c6bfe568-f868-4f47-bc2a-ad7b7c2eef0e")
@@ -13598,7 +13598,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus SYNC to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus INT to the Nano (I2C); cut for CAN"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13769,7 +13769,7 @@
 			(at -0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/SYNC")
+			(net "/slice_template/INT")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -13803,7 +13803,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/SYNC{slash}CAN_{INT}")
+			(net "/slice_template/INT{slash}CAN_{INT}")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -19241,7 +19241,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "SYNC"
+	(gr_text "INT"
 		(at 127.51 93.69 315)
 		(layer "F.SilkS")
 		(uuid "55159f70-13f1-47a3-bb2b-c74826aa604c")
@@ -19253,7 +19253,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "INT"
+	(gr_text "SYNC"
 		(at 127.51 96.19 315)
 		(layer "F.SilkS")
 		(uuid "b0e38842-ac03-4c5b-8a1e-55adbb4b8c0c")
@@ -22329,7 +22329,7 @@
 		(end 142.61 110.14)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}CAN_{INT}")
 		(uuid "2a441b3c-2839-4648-835c-4abba5037748")
 	)
 	(segment
@@ -22337,7 +22337,7 @@
 		(end 141.081 98.426)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}CAN_{INT}")
 		(uuid "4285497b-d850-454d-8514-ef35bbf0a33e")
 	)
 	(segment
@@ -22345,7 +22345,7 @@
 		(end 142.61 110.14)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}CAN_{INT}")
 		(uuid "4ecf55a8-9a82-44b8-a273-27e600998435")
 	)
 	(segment
@@ -22353,7 +22353,7 @@
 		(end 141.081 108.611)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}CAN_{INT}")
 		(uuid "67e32a19-8edf-42da-9f35-09b7a7fbeb69")
 	)
 	(segment
@@ -22361,7 +22361,7 @@
 		(end 139.41 96.755)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}CAN_{INT}")
 		(uuid "ee5f61a3-1893-4d55-a78c-10e2b09526ce")
 	)
 	(segment
@@ -22369,7 +22369,7 @@
 		(end 142.61 112.68)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}CAN_{CS}")
 		(uuid "15a036e6-2a89-4c43-8f24-d0a75b5df107")
 	)
 	(segment
@@ -22377,7 +22377,7 @@
 		(end 139.41 109.48)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}CAN_{CS}")
 		(uuid "a655bc06-3879-40db-9b20-bcb4e1236870")
 	)
 	(segment
@@ -22385,7 +22385,7 @@
 		(end 139.41 99.295)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}CAN_{CS}")
 		(uuid "f0fd8a09-4ef7-4a86-98ad-7f81933a4075")
 	)
 	(segment
@@ -22393,7 +22393,7 @@
 		(end 142.61 112.68)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}CAN_{CS}")
 		(uuid "f1a21adf-10ad-4291-a2f7-e5dcf57a50ef")
 	)
 	(segment
@@ -23193,7 +23193,7 @@
 		(end 126.78 96.13)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT")
+		(net "/slice_template/SYNC")
 		(uuid "93932e22-58bb-4fad-9a50-f36c8b543cd3")
 	)
 	(segment
@@ -23201,7 +23201,7 @@
 		(end 130.8 99.295)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT")
+		(net "/slice_template/SYNC")
 		(uuid "d62cf098-e3cc-4637-aa72-e0bc20422851")
 	)
 	(segment
@@ -23209,7 +23209,7 @@
 		(end 129.365 99.295)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT")
+		(net "/slice_template/SYNC")
 		(uuid "deb4111d-fb3d-4aed-bfef-ed08233a13e4")
 	)
 	(segment
@@ -23217,7 +23217,7 @@
 		(end 134.455 99.295)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/INT")
+		(net "/slice_template/SYNC")
 		(uuid "e7e48114-8abb-4b85-ba3a-88a9f6d7162a")
 	)
 	(segment
@@ -24793,7 +24793,7 @@
 		(end 126.2 94.290108)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC")
+		(net "/slice_template/INT")
 		(uuid "66559292-698d-4c8f-8bc9-7db4bf8af894")
 	)
 	(segment
@@ -24801,7 +24801,7 @@
 		(end 134.455 96.755)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC")
+		(net "/slice_template/INT")
 		(uuid "954f9d94-79a2-46cf-9ac6-3f39462b97bc")
 	)
 	(segment
@@ -24809,7 +24809,7 @@
 		(end 126.2 93.59)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC")
+		(net "/slice_template/INT")
 		(uuid "d134ac07-7895-4e07-873a-fb63ab80cfe5")
 	)
 	(segment
@@ -24817,7 +24817,7 @@
 		(end 128.664892 96.755)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC")
+		(net "/slice_template/INT")
 		(uuid "e1795373-822b-45fd-9b22-b3d5500afdc2")
 	)
 	(segment

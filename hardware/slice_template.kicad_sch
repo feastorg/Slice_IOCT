@@ -5978,7 +5978,7 @@
 		)
 		(uuid "1ba0c2ac-bfdd-4f7f-8562-7928e28a010a")
 	)
-	(label "INT"
+	(label "SYNC"
 		(at 38.1 78.74 180)
 		(effects
 			(font
@@ -6008,7 +6008,7 @@
 		)
 		(uuid "20695408-a282-4b2b-b074-20adeed2a295")
 	)
-	(label "INT{slash}CAN_{CS}"
+	(label "SYNC{slash}CAN_{CS}"
 		(at 205.74 76.2 0)
 		(effects
 			(font
@@ -6104,7 +6104,7 @@
 		)
 		(uuid "712340c4-ef8e-405e-b24b-7a0ef1731972")
 	)
-	(label "SYNC{slash}CAN_{INT}"
+	(label "INT{slash}CAN_{INT}"
 		(at 205.74 73.66 0)
 		(effects
 			(font
@@ -6230,7 +6230,7 @@
 			)
 		)
 	)
-	(label "SYNC"
+	(label "INT"
 		(at 38.1 76.2 180)
 		(effects
 			(font
@@ -8834,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Value" "SYNC bus link"
+		(property "Value" "INT bus link"
 			(at 165.1 75.66 0)
 			(hide yes)
 			(show_name no)
@@ -8867,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus SYNC to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus INT to the Nano (I2C); cut for CAN"
 			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8935,7 +8935,7 @@
 				)
 			)
 		)
-		(property "Value" "INT bus link"
+		(property "Value" "SYNC bus link"
 			(at 165.1 78.2 0)
 			(hide yes)
 			(show_name no)
@@ -8968,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus INT to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus SYNC to the Nano (I2C); cut for CAN"
 			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9014,9 +9014,9 @@
 		)
 		(uuid "f2d490af-f422-4d98-b4f9-f06aac68746d")
 	)
-	(text "JP2-JP5, top to bottom: I2C_CLK, I2C_DAT, SYNC, INT.\nBridged (default) = I2C; cut all four for CAN."
+	(text "JP2-JP5, top to bottom:\nI2C_CLK, I2C_DAT, INT, SYNC.\nBridged (default) = I2C;\ncut all four for CAN."
 		(exclude_from_sim no)
-		(at 165.1 80.01 0)
+		(at 173.99 85.09 0)
 		(effects
 			(font
 				(size 1 1)
