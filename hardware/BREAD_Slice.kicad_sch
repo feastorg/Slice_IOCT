@@ -1993,6 +1993,14 @@
 		(uuid "efc2d6ec-29c0-47db-82be-4c9b58d40119")
 	)
 	(no_connect
+		(at 49.53 115.57)
+		(uuid "84eb17aa-85c5-4fa1-a7a0-72f02e24a6d9")
+	)
+	(no_connect
+		(at 49.53 119.38)
+		(uuid "b45aceef-8c38-438d-8917-179b091f9c02")
+	)
+	(no_connect
 		(at 57.15 127)
 		(uuid "1760e45c-83a2-47ea-9b31-35401a442b2a")
 	)
@@ -2397,16 +2405,6 @@
 			(type default)
 		)
 		(uuid "4fba1d40-00d2-49b8-970e-168c48bfda1a")
-	)
-	(wire
-		(pts
-			(xy 49.53 115.57) (xy 57.15 115.57)
-		)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(uuid "52231709-d8ea-47b8-b164-6c873f3b9cfb")
 	)
 	(wire
 		(pts
@@ -3370,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 57.15 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(uuid "f2b90aa2-31fe-43b7-b793-96d275d0380f")
-	)
-	(wire
-		(pts
 			(xy 130.81 25.4) (xy 162.56 25.4)
 		)
 		(stroke
@@ -3617,16 +3605,6 @@
 			(justify left bottom)
 		)
 		(uuid "801d7d2e-9b3f-4458-a872-c47b29cc568f")
-	)
-	(label "I2C_CLK"
-		(at 57.15 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "807f5bb6-c2fc-4943-9715-4a6c73d8ae81")
 	)
 	(label "IN3-"
 		(at 135.89 162.56 0)
@@ -3897,16 +3875,6 @@
 			(justify left bottom)
 		)
 		(uuid "feed6337-ebbc-4a19-bb70-e08b048392fa")
-	)
-	(label "I2C_DAT"
-		(at 57.15 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff6dee2d-621b-4de5-85b3-b2dacaa29e4c")
 	)
 	(symbol
 		(lib_id "power:GND")

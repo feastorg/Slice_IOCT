@@ -2927,7 +2927,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/I2C_DAT")
+			(net "/slice_template/I2C_DAT{slash}A4")
 			(pinfunction "A4")
 			(pintype "bidirectional")
 			(uuid "72634a1b-4609-4069-82ab-80771b462ae5")
@@ -2938,7 +2938,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/I2C_CLK")
+			(net "/slice_template/I2C_CLK{slash}A5")
 			(pinfunction "A5")
 			(pintype "bidirectional")
 			(uuid "93fda6db-3c50-486d-a158-5412da3a8d34")
@@ -9859,7 +9859,7 @@
 			(size 2.44 1.12)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.223214)
-			(net "/I2C_DAT")
+			(net "/slice_template/I2C_DAT{slash}A4")
 			(pintype "passive")
 			(uuid "1297f257-3820-4e5f-95e6-ee9eea763b81")
 		)
@@ -9868,7 +9868,7 @@
 			(size 2.44 1.12)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.223214)
-			(net "/I2C_CLK")
+			(net "/slice_template/I2C_CLK{slash}A5")
 			(pintype "passive")
 			(uuid "40d52277-0d38-4f77-8de6-2619a1308631")
 		)
@@ -19018,7 +19018,7 @@
 		(end 143.483636 94.2)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_DAT")
+		(net "/slice_template/I2C_DAT{slash}A4")
 		(uuid "71be8a81-db91-439b-ad09-efe9780ab703")
 	)
 	(segment
@@ -19026,7 +19026,7 @@
 		(end 145.33 96.046364)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_DAT")
+		(net "/slice_template/I2C_DAT{slash}A4")
 		(uuid "9c22f4a6-0612-4ff8-928d-2ee7483ec52b")
 	)
 	(segment
@@ -19034,7 +19034,7 @@
 		(end 139.425 94.2)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_DAT")
+		(net "/slice_template/I2C_DAT{slash}A4")
 		(uuid "b9d8b90d-3c64-42e3-8707-1bd09a197b18")
 	)
 	(segment
@@ -19042,7 +19042,7 @@
 		(end 139.41 94.215)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_DAT")
+		(net "/slice_template/I2C_DAT{slash}A4")
 		(uuid "d968691a-fe94-4ada-bebf-8fd1e20b3e75")
 	)
 	(segment
@@ -19050,7 +19050,7 @@
 		(end 145.33 102.7)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_DAT")
+		(net "/slice_template/I2C_DAT{slash}A4")
 		(uuid "f6b69075-6194-49ee-a616-32ec91ffb195")
 	)
 	(segment
@@ -19058,7 +19058,7 @@
 		(end 146.05 98.315)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "2db24aff-7ae3-414e-8ad6-be4872c9958f")
 	)
 	(segment
@@ -19066,7 +19066,7 @@
 		(end 146.031 95.756)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "370ef584-dfa0-4a7a-b707-3d0f9c609cab")
 	)
 	(segment
@@ -19074,7 +19074,7 @@
 		(end 146.031 98.296)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "5253deb2-f6c0-4dbe-a066-142dff788d7a")
 	)
 	(segment
@@ -19082,7 +19082,7 @@
 		(end 141.95 91.675)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "5666983b-d188-4315-94fe-ee52c72918ed")
 	)
 	(segment
@@ -19090,7 +19090,7 @@
 		(end 156.43 112.68)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "aae06c4b-2709-4f03-9105-4602196d3363")
 	)
 	(segment
@@ -19098,7 +19098,7 @@
 		(end 146.05 102.3)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "c86907c9-9cfa-4ea8-a0d2-8328db5b3ccb")
 	)
 	(segment
@@ -19106,7 +19106,7 @@
 		(end 139.41 91.675)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/I2C_CLK")
+		(net "/slice_template/I2C_CLK{slash}A5")
 		(uuid "cef8994a-4c59-4f9b-86cf-15d333461289")
 	)
 	(segment
