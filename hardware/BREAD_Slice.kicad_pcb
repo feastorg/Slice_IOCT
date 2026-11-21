@@ -20031,25 +20031,6 @@
 		(uuid "c3bebe13-d46f-4b73-832f-f5482284de09")
 	)
 	(via
-		(at 148.5 55.5)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "GND")
-		(uuid "c805d9f3-c992-4b5b-81ac-b7c0db06fc6b")
-	)
-	(via
 		(at 131.15 121)
 		(size 0.8)
 		(drill 0.4)
