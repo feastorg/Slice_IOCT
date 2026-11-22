@@ -36,33 +36,30 @@ This Slice is designed to be a rugged digital input and output slice that can in
 
 ## 🔌 Interfaces
 
-| Signal | Connector  | Direction | Voltage | Notes               |
-| ------ | ---------- | --------- | ------- | ------------------- |
-| IN1    | Screw down | Input     | 24V     | High voltage input  |
-| IN2    | Screw down | Input     | 24V     | High voltage input  |
-| IN3    | Screw down | Input     | 24V     | High voltage input  |
-| IN4    | Screw down | Input     | 24V     | High voltage input  |
-| IN5    | Screw down | Input     | 24V     | High voltage input  |
-| IN6    | Screw down | Input     | 24V     | High voltage input  |
-| OUT1   | Screw down | Output    | 12V/24V | High voltage output |
-| OUT2   | Screw down | Output    | 12V/24V | High voltage output |
-| OUT3   | Screw down | Output    | 12V/24V | High voltage output |
-| OUT4   | Screw down | Output    | 12V/24V | High voltage output |
+| Signal | Connector | Direction | Voltage | Notes |
+| --- | --- | --- | --- | --- |
+| IN1–IN4 | J3 (`INx+`, `INx-`, `GND` per channel) | Input | 12–30 V | Optocoupler; OFF below ~7 V, ON from 11 V |
+| OUT1–OUT4 | J2 (`OUTx-`, `OUTx+`, `VF` per channel) | Output | ≤30 V DC | Photo-MOSFET relay, 0.7 A, TVS across each |
+| +24 V in, 0 V | J1 pins 1–2 | Power in | 24 V (≤30 V) | Reverse-polarity protected, TVS |
+| GND (load return) | J1 pins 3–4 | Power | — | Return for wet-contact loads |
+| VFIELD source | JP1 | — | — | 1–2 external 24 V, 2–3 bus 12 V; 2 A total |
+| E-stop | Bus pin 6 | Input | 5 V = run | Low turns every output off (Q2) |
 
 ## 🪛 MCU Pin Mapping
 
-| MCU Pin | Function | Net  | Notes |
-| ------- | -------- | ---- | ----- |
-| D6      | IN1      | IN1  |       |
-| D7      | IN3      | IN3  |       |
-| D8      | IN5      | IN5  |       |
-| D9      | IN6      | IN6  |       |
-| D10     | IN4      | IN4  |       |
-| D11     | IN2      | IN2  |       |
-| A0      | OUT1     | OUT1 |       |
-| A1      | OUT2     | OUT2 |       |
-| A2      | OUT3     | OUT3 |       |
-| A3      | OUT4     | OUT4 |       |
+| MCU Pin | Function | Net | Notes |
+| --- | --- | --- | --- |
+| D9 | IN1 | IN1 | High when the input is on |
+| D8 | IN2 | IN2 | |
+| D7 | IN3 | IN3 | |
+| D6 | IN4 | IN4 | |
+| A0 | OUT1 | OUT1 | High switches the relay on |
+| A1 | OUT2 | OUT2 | |
+| A2 | OUT3 | OUT3 | |
+| A3 | OUT4 | OUT4 | |
+| D2 | E-stop | ESTOP via R16 (1 k) | Low = stop; read without the internal pull-up |
+| D5 | Status LED | LED | WS2812B data |
+| A4, A5 | I²C | via JP2–JP3 | Solder jumpers JP2–JP5, bridged by default; cut one to isolate that bus line |
 
 ### DUMP
 
@@ -78,8 +75,9 @@ This Slice is designed to be a rugged digital input and output slice that can in
 
 ## 🔋 Power Domains
 
-- Logic power: 5V
-- High-current domain: 12V/24V
+- Logic: 5 V from the AP63205 buck on the bus 12 V.
+- Field: VFIELD, from the external 24 V on J1 or the bus 12 V (JP1), 2 A
+  total.
 
 ## 🧩 Mechanical
 

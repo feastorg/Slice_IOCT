@@ -5,6 +5,362 @@
 	(uuid "3dcfb89b-40e7-4467-8f16-aec2e3504375")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -315,7 +671,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -339,7 +695,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
 					)
 					(stroke
 						(width 0)
@@ -469,7 +825,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 175.26 120.65)
+			(xy 160.02 120.65) (xy 186.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 115.57) (xy 170.18 115.57)
+			(xy 181.61 115.57) (xy 186.69 115.57)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 158.75 115.57)
+			(xy 160.02 115.57) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +905,7 @@
 	)
 	(hierarchical_label "IN+"
 		(shape input)
-		(at 175.26 115.57 0)
+		(at 186.69 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -593,7 +949,7 @@
 	)
 	(hierarchical_label "IN-"
 		(shape input)
-		(at 175.26 120.65 0)
+		(at 186.69 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -625,7 +981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22k"
 			(at 139.7 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -698,7 +1054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 115.57 90)
+		(at 177.8 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -709,7 +1065,7 @@
 		(fields_autoplaced yes)
 		(uuid "d757ee8d-2a11-49d2-8186-9b616e83843d")
 		(property "Reference" "R5"
-			(at 166.37 109.22 90)
+			(at 177.8 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -718,8 +1074,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 166.37 111.76 90)
+		(property "Value" "2.7k"
+			(at 177.8 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -728,8 +1084,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 117.348 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 177.8 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -740,7 +1096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 115.57 0)
+			(at 177.8 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -751,7 +1107,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 115.57 0)
+			(at 177.8 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -881,6 +1237,230 @@
 				)
 				(path "/66043bca-a260-4915-9fce-8a51d324c687/f4bc6ab1-c08e-4bad-8836-4e168b2fbdc6"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 162.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecaced9-853c-4776-8e81-533cc6b25478")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ae6c02-9fdc-4425-b1cb-cb6d10062cf3")
+	)
+	(wire
+		(pts
+			(xy 158.75 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7f59a2-b13b-456c-9a4c-d745ff2090c3")
+	)
+	(junction
+		(at 160.02 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f68a4987-92a8-43e8-b8aa-7278ff209336")
+	)
+	(junction
+		(at 160.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e80ce139-da5d-40d1-99fa-455bf9ec9bdc")
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 166.37 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ffdbe9a-1e9b-487c-837a-1e35938c8748")
+		(property "Reference" "D5"
+			(at 166.37 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MM3Z6V8"
+			(at 166.37 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 166.37 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode, 6.8 V input threshold"
+			(at 166.37 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61d32c70-9c8e-4191-865e-c812f1df0a20")
+		)
+		(pin "2"
+			(uuid "1fe41ff3-c72a-45e8-9f84-460d4dd14b7f")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/237ecdf4-0ec6-4779-9712-21a21e3b44fb"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/4214154c-51ea-452d-92fc-56119205d2c3"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/b64880f2-481d-450b-a976-c6882ac5d67f"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/f4bc6ab1-c08e-4bad-8836-4e168b2fbdc6"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 160.02 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc236515-4b90-4056-a09b-f16af8b631ff")
+		(property "Reference" "D9"
+			(at 165.1 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 165.1 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Reverse-input clamp across the optocoupler LED"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1065bd1a-7de1-4321-b35c-bbffa210e093")
+		)
+		(pin "2"
+			(uuid "58f8f599-d9eb-4781-b6a0-4423740684ed")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/237ecdf4-0ec6-4779-9712-21a21e3b44fb"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/4214154c-51ea-452d-92fc-56119205d2c3"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/b64880f2-481d-450b-a976-c6882ac5d67f"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/66043bca-a260-4915-9fce-8a51d324c687/f4bc6ab1-c08e-4bad-8836-4e168b2fbdc6"
+					(reference "D9")
 					(unit 1)
 				)
 			)
